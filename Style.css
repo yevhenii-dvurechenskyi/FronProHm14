@@ -1,0 +1,269 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.calculatorBody{
+    margin-top: 100px;
+    width: 400px;
+    height: 540px;
+    border: 1px solid black;
+    background-color: azure;
+    border-top-left-radius:  25px;
+    border-top-right-radius:  25px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.calculatorWindow{
+    position: absolute;
+    width: 400px;
+    height: 170px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 1px solid black;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.number{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.calculatorButtons{
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    top: 171px;
+}
+/* first line */
+.firstLine{
+    height: 74px;
+    width: 400px;
+    position: relative;
+}
+.buttonReset{
+    position: absolute;
+    height: 74px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.buttonDivide{
+    left: 300px;
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: blue;
+    cursor: pointer;
+}
+/* second line */
+.secondLine{
+    height: 74px;
+    width: 400px;
+    position: relative;
+}
+.buttonNomber1{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+}
+.buttonNomber2{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    left: 100px;
+}
+.buttonNomber3{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    left: 200px;
+}
+.buttonMultiply{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: blue;
+    left: 300px;
+}
+/* third line */
+.thirdLine{
+    height: 74px;
+    width: 400px;
+    position: relative;
+}
+.buttonNomber4{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+}
+.buttonNomber5{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    left: 100px;
+}
+.buttonNomber6{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    left: 200px;
+}
+.buttonPlus{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: blue;
+    left: 300px;
+}
+/* fourth line */
+.fourthLine{
+    height: 74px;
+    width: 400px;
+    position: relative;
+}
+.buttonNomber7{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+}
+.buttonNomber8{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    left: 100px;
+}
+.buttonNomber9{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    left: 200px;
+}
+.buttonMinus{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: blue;
+    left: 300px;
+}
+/* fifth line */
+.fifthLine{
+    height: 74px;
+    width: 400px;
+    position: relative;
+}
+.buttonNomber0{
+    position: absolute;
+    height: 74px;
+    width: 100px;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: coral;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.buttonEqual{
+    position: absolute;
+    height: 74px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: chartreuse;
+    cursor: pointer;
+    left: 100px;
+}
+
+
+
